@@ -1,0 +1,114 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .search-bar input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ddd url(../Imagenes/new\ fondo.jpg);
+  }
+  
+  .hero h1 {
+    margin: 20px 0;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #eee;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .three-columns .box {
+    margin: 5px;
+  }
+  
+  .two-columns .box {
+    margin: 5px;
+  }
+  
+  .bordered {
+    border: 2px solid #333;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .social-icons span {
+    margin: 0 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  

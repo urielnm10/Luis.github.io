@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /*evita el desbordamiento de capas referente a margenes,sangrias bordes*/
+}
+.gradiente{
+    background: linear-gradient( to right,rgb(150, 220, 241), rgb(41, 24, 24) );/* degradado en el fondo de la pagina*/
+}
+
+.contenedor{
+    width: 95%;
+    margin: 5px auto;
+    border: 1px rgb(202, 200, 228) inset;
+    border-radius: 10px;
+}
+
+.menu{
+    height: 80px;
+    text-align: right;
+    line-height: 80px;/*centar verticalmente*/
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.cabecera{
+    height: 200px;
+    background-image: url("../imagenes/Fondo\ ruiz.jpg");
+    line-height: 200px;
+    background-size: cover;
+}
+
+.cabecera h2{
+    color: rgb(0, 255, 242);
+    font-size: 5.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+.principal p{
+    text-align: center;
+    padding: 25px 25px;
+    font-family: cursive;
+}
+
+.principal h3{
+    text-align: center;
+    color: rgba(10, 236, 100, 0.76);
+    margin-bottom: 30px;
+    font-family: cursive;
+}
+
+.capas .uno,.dos,.tres{
+    width: 33.3%;
+    float: left;
+    height: 200px;
+    border: 1px black solid;
+}
+
+.uno,.dos,.tres p{
+    padding: 20px;
+    text-align: justify;
+}

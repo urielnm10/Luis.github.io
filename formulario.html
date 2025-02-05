@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><a href="Index.html">Regresar al Índice de Trabajos</a></p> 
+    <div class="contenedor">
+        <form method="get">
+            <p><label for="nombre">Nombre</label><br>
+            <input type="text" id="nombre" name="nombre" autofocus placeholder="aqui va tu nombre" required>
+        </p>
+        <p><label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos" placeholder="aqui va tu Apellido" required size="50" title="Favor de Escribir sus Apellidos">
+        </p>
+        <p><label for="genero">Genero</label><br>
+            <input type="text" id="genero" name="genero" value="Masculino" readonly>
+        </p>
+        <p><input type="hidden" id="class" name="clave">
+        </p>
+        <p><input type="submit" name="Enviar" value="Enviar" value="1000"></p>
+        <p><label for="comentarios">Comentarios</label><br>
+            <textarea id="comentarios" name="comentarios" autofocus placeholder="Ahorre sus Comentarios" required cols="50" rows="6"></textarea>
+        </p>
+        <label for="municipio">Estado</label><br>
+            <select id="municipio" name="municipio" required>
+            <option value="">Seleccione</option>
+            <option value="1">Ecatepec</option>
+            <option value="2">Chimalhuacan</option>
+            <option value="3">Nezahualcoytol</option>
+        </p>
+        </form>
+    </div>
+</body>
+</html>

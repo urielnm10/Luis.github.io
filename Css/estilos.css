@@ -1,0 +1,318 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    color: gray;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* ----------------- CABECERA ----------------- */
+.cabecera {
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+    background-image: url('../Imagenes/fondo.jpg');
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.ingresar{
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    color: chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    border: 2px silver outset;
+}
+
+nav{
+    background-color: gray;
+    height: 60px;
+    text-align: right;
+}
+
+.logo{
+    float: left;
+    width: 10%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.circulo{
+    border-radius: 25px;
+}
+
+.menu{
+    float: left;
+    width: 80%;
+    line-height: 60px;
+    text-align: right;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 0px 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.principal{
+    clear: both;
+}
+
+.uno{
+    float: left;
+    width: 50%;
+    border: 2px silver solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.dos{
+    float: left;
+    width: 50%;
+    border: 2px silver solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.uno p{
+    text-align: justify;
+    font-size: 1.1em;
+    padding: 30px;
+}
+
+.uno h2{
+    text-align: left;
+    background-color: black;
+}
+
+.dos p{
+    text-align: center;
+    font-size: 1em;
+    padding: 30px;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+
+.dos h2{
+    text-align: center;
+    color: black;
+}
+
+.tarjetas{
+    clear: both;
+    text-align: center;
+}
+
+.tres{
+    float: left;
+    width: 33.3%;
+    margin-top: 30px;
+    border: 1px silver solid;
+    border-radius: 30px;
+    padding: 20px;
+    background: rgb(233, 231, 231);
+}
+
+.tres p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+}
+
+.cuatro{
+    float: left;
+    width: 33.3%;
+    margin-top: 30px;
+    border: 1px silver solid;
+    border-radius: 30px;
+    padding: 20px;
+    background: rgb(233, 231, 231);
+}
+
+.cuatro p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+}
+
+
+.cinco{
+    float: left;
+    width: 33.3%;
+    margin-top: 30px;
+    border: 1px silver solid;
+    border-radius: 30px;
+    padding: 20px;
+    background: rgb(233, 231, 231);
+}
+
+.cinco p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+}
+
+hr{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px silver solid;
+}
+
+.secundario{
+    clear:both;
+}
+
+.seis{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.seis h2{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.seis p{
+    padding: 30px;
+    text-align: justify;
+}
+
+.siete{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    border: 1px silver solid;
+    border-radius: 20px;
+}
+
+.siete h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.siete p{
+    padding: 0px;
+    text-align: justify;
+}
+
+.pie{
+    clear: both;
+}
+
+.redes{
+    text-align: center;
+    padding-top: 2px;
+}
+
+.redes ul li{
+    display: inline-block;
+}
+
+.redes ul li i{
+    margin-right: 30px;
+}
+
+.vertical{
+    width: 20%;
+    margin:  20px auto;
+}
+
+/* Contenedor general centrado */
+.formulario-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column; /* Asegura que el formulario y los iconos estén separados */
+}
+
+/* Contenedor del formulario */
+.formulario-container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px; /* Espacio para separar de los iconos */
+}
+
+/* Espaciado entre los campos */
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Estilo para etiquetas */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para inputs y selects */
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Evita que el textarea se agrande */
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+/* Botón estilizado */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efecto hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Contenedor de iconos separado */
+.iconos-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaciado entre iconos */
+    font-size: 24px;
+    margin-top: 10px; /* Espacio desde el formulario */
+}
+
