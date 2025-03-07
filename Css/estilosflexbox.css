@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, silver, white);
+}
+
+.contenedor {
+    width: 95%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.circulo {
+    border-radius: 50%;
+}
+
+.menu {
+    width: 80%;
+    text-align: center;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+
+.redes2 {
+    width: 10%;
+    height: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sociales {
+    margin: .2em;
+}
+
+.cabecera {
+    width: 100%;
+    border: 1px silver solid;
+    height: 200px;
+    background: url(../Imagenes/fondo.jpg);
+    text-align: center;
+}
+
+.cabecera p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2.8em;
+}
+
+.boton {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    color: chartreuse;
+    border: 2px silver outset;
+}
+
+.tarjeta {
+    width: 33%;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.izq {
+    width: 40%;
+    border: 2px black solid;
+    margin-top: 1em;
+}
+
+.der {
+    width: 60%;
+    display: flex;
+}
+
+.formulario-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.formulario-container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.campo {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.pie {
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .logo, .menu, .redes {
+        width: 100%;
+    }
+    .tarjeta, .izq, .der {
+        width: 100%;
+    }
+}
+
+.redes {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centra los íconos horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    gap: 10px; /* Espaciado entre los íconos */
+}
+
+.redes ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.redes ul li {
+    margin: 0 10px; /* Espaciado horizontal entre íconos */
+    display: inline-block;
+}
+
+.redes ul li i {
+    font-size: 24px; /* Ajusta el tamaño de los íconos */
+    color: #000; /* Color de los íconos */
+    transition: color 0.3s ease-in-out;
+}
+
+.redes ul li i:hover {
+    color: #007bff; /* Cambia de color al pasar el cursor */
+}
